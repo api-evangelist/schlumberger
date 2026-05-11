@@ -28,6 +28,12 @@ apis:
 common:
   - type: Website
     url: https://www.slb.com
+  - type: Integrations
+    url: https://www.slb.com/partners
+integrations:
+  - name: Embedded Partners and Suppliers
+  - name: Alliance Partners
+  - name: Digital Platform Partners
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
