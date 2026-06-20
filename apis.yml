@@ -2,7 +2,7 @@ aid: schlumberger
 url: https://raw.githubusercontent.com/api-evangelist/schlumberger/refs/heads/main/apis.yml
 name: SLB (Schlumberger)
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Energy
   - Oilfield Services
@@ -17,7 +17,7 @@ apis:
     tags:
       - Energy
       - Oilfield Services
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.slb.com
     humanURL: https://developer.slb.com
     properties:
