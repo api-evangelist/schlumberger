@@ -1,0 +1,31 @@
+# Front Door AI Index — schlumberger — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: schlumberger
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.slb.com
+  final_host: www.slb.com
+  ownership: unresolved
+  owner: null
+  shares_host_with:
+  - cameron-international
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 36
+  density: null
+  words: 4916
+  tiers:
+    agentic: 4
+    core: 32
+    model: 0
+  ambiguous: 6
+  top_terms:
+    AI: 28
+    artificial intelligence: 4
+    intelligence: 4
+    AI assistant: 2
+    agentic: 2
+    automation: 2
