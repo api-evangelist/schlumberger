@@ -29,6 +29,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schlumberg
 tags:
   - Energy
   - Oilfield Services
+  - Oil and Gas
 description: >-
   SLB (Schlumberger) is a major US corporation and Fortune 1000 company. The SLB (Schlumberger) API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 created: '2026-04-19'
