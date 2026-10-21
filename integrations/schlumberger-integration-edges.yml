@@ -1,0 +1,104 @@
+edges:
+- partner_name: The Open Group OSDU Forum
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://reports.opengroup.org/osdu_forum.shtml
+  category: subsurface data platform standards forum membership
+  contract_reference:
+    register: The Open Group OSDU Forum membership report (reports.opengroup.org/osdu_forum.shtml)
+    standard: OSDU Data Platform
+    spec_file: null
+    role: osdu-forum-member
+    registered_name: SLB
+    register_country: United Kingdom
+    register_id: https://www.slb.com
+    matched_domain: slb.com
+    matched_by: domain+name-among-holders
+    signal_note: 'participation only: membership of the standards forum / consortium (The Open Group hourly membership
+      report, which links each member''s website); listing is not conformance'
+    detected_by: sweep-energy-subsurface.py
+    detected: '2026-10-20'
+  detected_by: sweep-energy-subsurface.py
+  first_seen: '2026-10-20'
+- partner_name: Energistics Consortium (WITSML / PRODML / RESQML)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://reports.opengroup.org/energistics.shtml
+  category: upstream data-exchange standards consortium membership
+  contract_reference:
+    register: The Open Group Energistics Consortium membership report (reports.opengroup.org/energistics.shtml)
+    standard: Energistics standards (WITSML / PRODML / RESQML / ETP)
+    spec_file: null
+    role: energistics-member
+    registered_name: SLB
+    register_country: United Kingdom
+    register_id: https://www.slb.com
+    matched_domain: slb.com
+    matched_by: domain+name-among-holders
+    signal_note: 'participation only: membership of the standards forum / consortium (The Open Group hourly membership
+      report, which links each member''s website); listing is not conformance'
+    detected_by: sweep-energy-subsurface.py
+    detected: '2026-10-20'
+  detected_by: sweep-energy-subsurface.py
+  first_seen: '2026-10-20'
+- partner_name: Energistics (WITSML certification)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.energistics.org/witsml-v1411-certified-products
+  category: WITSML certified drilling data products
+  contract_reference:
+    register: Energistics WITSML certified products (energistics.org, v1.4.1.1 + v1.3.1 lists)
+    standard: WITSML (Energistics)
+    spec_file: null
+    role: witsml-certified-vendor
+    registered_name: Schlumberger
+    matched_domain: slb.com
+    matched_by: domain+name-among-holders
+    certified_products:
+    - product: WITSML 1.4.1.1 certified store / server
+      product_type: WITSML store (server)
+      witsml_version: 1.4.1.1
+      lapsed: false
+      latest_pass: '2021-07-14'
+    - product: WITSML 1.3.1 certified product
+      product_type: WITSML 1.3.1 product
+      witsml_version: 1.3.1
+      lapsed: true
+      lapsed_note: the v1.4.1.1 testing tool 'replaces all previous certification programs'
+    signal_note: certified_products = one entry per WITSML product type, never per product or version release; v1.3.1
+      entries are lapsed because the v1.4.1.1 behaviour-based test replaced every earlier programme; product names
+      are context, never counted
+    detected_by: sweep-energy-subsurface.py
+    detected: '2026-10-20'
+    identity: wikidata Q1425316 'SLB' P856 https://www.slb.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-energy-subsurface.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://reports.opengroup.org/osdu_forum.shtml
+- https://reports.opengroup.org/energistics.shtml
+- https://www.energistics.org/witsml-v1411-certified-products
+- https://www.energistics.org/witsml-v131-certified-products
+- https://pidx.org/current-members/
+- https://www.icmm.com/our-members
+checked:
+- https://pidx.org/current-members/
+- https://reports.opengroup.org/energistics.shtml
+- https://reports.opengroup.org/osdu_forum.shtml
+- https://www.energistics.org/witsml-v131-certified-products
+- https://www.energistics.org/witsml-v1411-certified-products
+- https://www.icmm.com/our-members
